@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+      
+    <h1 align="center" >TRABALHANDO COM FORMULARIOS</h1>
+
+    <form action="" method="get">
+       
+        <label for="nome">Nome completo:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br>
+        <br>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="senha"> Senha </label>
+        <input type="password" name="senha" id="senha">
+        <br>
+        <br>
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento">
+        <br>
+        <input type="button" value="Enviar">
+        <br>
+        
+        <label for="genero">Masculino</label>
+        <input type="radio" name="genero" id="genero" checked>
+        <label for="genero">Feminino</label>
+        <input type="radio" name="genero" id="genero">
+        
+        <input type="radio" name="genero" id="genero">
+        <label for="genero">Outro</label>
+        <br>
+        <p>Selecione a tecnologia ja conhecida:</p>
+        <label for="tec">Html </label>
+        <input type="checkbox" name="tecnologia" id="tecnologia">
+        <br>
+        <label for="tec">CSS </label>
+        <input type="checkbox" name="tecnologia" id="tecnologia">
+        <br>
+        <label for="tec">JS </label>
+        <input type="checkbox" name="tecnologia" id="tecnologia">
+        <br>
+        <br>
+        <label for="tecpref">Tecnologia Preferida:</label>
+        <select id="tecpref" name="tecpref">
+            <option value="html">Html</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+            <option value="php">PHP</option>
+        </select>
+
+
+
+    </form>
+    
+</body>
+</html>

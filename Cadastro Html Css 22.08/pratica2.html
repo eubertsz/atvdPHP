@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1e272e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #00a8ff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        form {
+            background-color: #2f3640;
+            padding: 40px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        label {
+            font-size: 1rem;
+            color: #f5f6fa;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 2px solid #00a8ff;
+            border-radius: 5px;
+            background-color: #f5f6fa;
+            color: #2f3640;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 1.2rem;
+            background-color: #00a8ff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0097e6;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+    <title>Login</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="hhh">Login</h1>
+        <form>
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required minlength="8">
+            
+            <div style="margin-bottom: 20px;">
+                <input type="checkbox" id="lembrar-me" name="lembrar-me">
+                <label for="lembrar-me" style="display: inline; color: #f5f6fa;">Lembrar-me</label>
+            </div>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>
